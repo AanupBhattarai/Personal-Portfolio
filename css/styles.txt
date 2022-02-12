@@ -71,7 +71,7 @@ div {
   height: 100vh;
 }
 
-h2 {
+.h2 {
   font-size: 60px;
   background-color: lightgray;
   padding: 8px 24px;
