@@ -242,10 +242,7 @@ svg {
   font-size: 30px;
 }
 
-.twitter,
-.facebook,
-.linkedin,
-.github {
+.twitter {
   transition: 0.3s;
 }
 
@@ -253,12 +250,24 @@ svg {
   color: #00b6f1;
 }
 
+.facebook {
+  transition: 0.3s;
+}
+
 .facebook:hover {
   color: #3b5998;
 }
 
+.linkedin {
+  transition: 0.3s;
+}
+
 .linkedin:hover {
   color: #04669a;
+}
+
+.github {
+  transition: 0.3s;
 }
 
 .github:hover {
@@ -323,6 +332,11 @@ svg {
   width: 60%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.about-social-icons {
+  margin: 0;
+  padding: 0;
 }
 
 .about-social-icons-li {
@@ -605,18 +619,15 @@ svg {
   border-radius: 50px;
   transition: all 0.4s;
 }
-
 .back-to-top i {
   font-size: 18px;
   color: #fff;
   line-height: 0;
 }
-
 .back-to-top:hover {
   background: rgba(0, 0, 0, 0.9);
   color: #fff;
 }
-
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
@@ -625,11 +636,9 @@ svg {
 .align-items-center {
   align-items: center !important;
 }
-
 .justify-content-center {
   justify-content: center !important;
 }
-
 .d-flex {
   display: flex !important;
 }
@@ -654,7 +663,6 @@ svg {
   color: #000;
   font-size: 25px;
 }
-
 .copy-pfp {
   color: #000;
   font-size: 19px;
